@@ -3,6 +3,5 @@
 libvirt_packages:
   - libvirt
   - qemu-kvm
-  - qemu-kvm-tools
 
 libvirt_service: libvirtd
