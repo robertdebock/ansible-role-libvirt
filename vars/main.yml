@@ -1,7 +1,12 @@
 ---
 # vars file for libvirt
-libvirt_packages:
-  - libvirt
-  - qemu
+_libvirt_packages:
+  default:
+    - libvirt
+    - qemu
+  RedHat:
+    - "@virt"
+
+libvirt_packages: "{{ _libvirt_packages[ansible_os_family] | default('default') }}"
 
 libvirt_service: libvirtd
