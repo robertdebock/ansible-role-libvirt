@@ -2,11 +2,11 @@
 # vars file for libvirt
 _libvirt_packages:
   default:
+    - "@virt"
+  Fedora:
     - libvirt
     - qemu
-  RedHat:
-    - "@virt"
 
-libvirt_packages: "{{ _libvirt_packages[ansible_os_family] | default('default') }}"
+libvirt_packages: "{{ _libvirt_packages[ansible_distribution] | default('default') }}"
 
 libvirt_service: libvirtd

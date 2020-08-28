@@ -14,6 +14,8 @@ env:
   global:
     namespace="robertdebock"
   matrix:
+    - image="centos" tag="7"
+    - image="centos" tag="latest"
     - image="fedora" tag="31"
     - image="fedora" tag="latest"
     - image="fedora" tag="rawhide"
