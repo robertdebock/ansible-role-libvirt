@@ -1,12 +1,8 @@
 ---
 # vars file for libvirt
-_libvirt_packages:
-  default:
-    - "@virt"
-  Fedora:
-    - libvirt
-    - qemu
-
-libvirt_packages: "{{ _libvirt_packages[ansible_distribution] | default(_libvirt_packages['default']) }}"
+libvirt_packages:
+  - libvirt
+  - qemu-kvm
+  - qemu-kvm-tools
 
 libvirt_service: libvirtd
