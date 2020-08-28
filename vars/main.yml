@@ -1,13 +1,7 @@
 ---
 # vars file for libvirt
-_libvirt_packages:
-  CentOS:
+libvirt_packages:
     - libvirt
     - qemu-kvm-core
-  Fedora:
-    - libvirt
-    - qemu-kvm
-
-libvirt_packages: "{{ _libvirt_packages[ansible_distribution] }}"
 
 libvirt_service: libvirtd
