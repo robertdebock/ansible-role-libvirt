@@ -2,6 +2,6 @@
 # vars file for libvirt
 libvirt_packages:
     - libvirt
-    - qemu-kvm-core
+    - qemu-kvm
 
 libvirt_service: libvirtd
