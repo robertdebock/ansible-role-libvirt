@@ -1,0 +1,12 @@
+---
+- name: test if libvirt_X is set correctly
+  assert:
+    that:
+      - libvirt_X is defined
+      - libvirt_X | length > 0
+      - libvirt_X is iterable
+      - libvirt_X | int
+      - libvirt_X | int >= 0
+      - libvirt_X | type_debug == "bool"
+      - libvirt_X in ["a", "b"]
+    quiet: yes

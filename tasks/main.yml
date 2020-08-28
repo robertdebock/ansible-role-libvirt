@@ -1,0 +1,15 @@
+---
+# tasks file for libvirt
+- name: include assert.yml
+  include_tasks: assert.yml
+
+- name: install libvirt
+  package:
+    name: "{{ libvirt_packages }}"
+    state: present
+
+- name: start libvirtd
+  service:
+    name: "{{ libvirt_service }}"
+    state: started
+    enabled: yes

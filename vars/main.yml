@@ -1,0 +1,7 @@
+---
+# vars file for libvirt
+libvirt_packages:
+  - libvirt
+  - qemu
+
+libvirt_service: libvirtd
