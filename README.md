@@ -4,7 +4,7 @@ Install and configure libvirt on your system.
 
 |Travis|GitHub|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-libvirt.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-libvirt)|[![github](https://github.com/robertdebock/ansible-role-libvirt/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-libvirt/actions)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/libvirt)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/libvirt)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-libvirt.svg)](https://github.com/robertdebock/ansible-role-libvirt/releases/)|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-libvirt.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-libvirt)|[![github](https://github.com/robertdebock/ansible-role-libvirt/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-libvirt/actions)|[![quality](https://img.shields.io/ansible/quality/50469)](https://galaxy.ansible.com/robertdebock/libvirt)|[![downloads](https://img.shields.io/ansible/role/d/50469)](https://galaxy.ansible.com/robertdebock/libvirt)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-libvirt.svg)](https://github.com/robertdebock/ansible-role-libvirt/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -41,8 +41,8 @@ For verification `molecule/resources/verify.yml` run after the role has been app
   gather_facts: yes
 
   tasks:
-    - name: see if qemu-kvm is installed
-      command: qemu-kvm -version
+    - name: see if qemu-io is installed
+      command: qemu-io --version
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
