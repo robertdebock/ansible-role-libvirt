@@ -3,7 +3,6 @@
 #   assert:
 #     that:
 #       - libvirt_X is defined
-#       - libvirt_X | length > 0
 #       - libvirt_X is iterable
 #       - libvirt_X is number
 #       - libvirt_X | int >= 0
