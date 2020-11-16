@@ -5,7 +5,7 @@
 #       - libvirt_X is defined
 #       - libvirt_X is iterable
 #       - libvirt_X is number
-#       - libvirt_X | int >= 0
+#       - libvirt_X >= 0
 #       - libvirt_X is boolean
 #       - libvirt_X in [ "a", "b" ]
 #     quiet: yes
