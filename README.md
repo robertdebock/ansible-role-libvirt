@@ -2,9 +2,9 @@
 
 Install and configure libvirt on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-libvirt.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-libvirt)|[![github](https://github.com/robertdebock/ansible-role-libvirt/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-libvirt/actions)|[![quality](https://img.shields.io/ansible/quality/50469)](https://galaxy.ansible.com/robertdebock/libvirt)|[![downloads](https://img.shields.io/ansible/role/d/50469)](https://galaxy.ansible.com/robertdebock/libvirt)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-libvirt.svg)](https://github.com/robertdebock/ansible-role-libvirt/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-libvirt.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-libvirt)|[![github](https://github.com/robertdebock/ansible-role-libvirt/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-libvirt/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-libvirt/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-libvirt)|[![quality](https://img.shields.io/ansible/quality/50469)](https://galaxy.ansible.com/robertdebock/libvirt)|[![downloads](https://img.shields.io/ansible/role/d/50469)](https://galaxy.ansible.com/robertdebock/libvirt)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-libvirt.svg)](https://github.com/robertdebock/ansible-role-libvirt/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
