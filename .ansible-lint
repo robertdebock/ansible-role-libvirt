@@ -3,7 +3,6 @@
 #
 exclude_paths:
   - ./meta/preferences.yml
-  - ./molecule/default/ansible-role-libvirt/meta/preferences.yml
   - ./molecule/default/verify.yml
   - ./molecule/default/collections.yml
   - ./.tox

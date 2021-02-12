@@ -19,11 +19,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-        # with:
-        #   path: "${{ github.repository }}"
-      - run: pwd
-      - run: ls -l
-      - run: find ./
       - name: molecule
         uses: robertdebock/molecule-action@2.6.10
         with:
@@ -55,8 +50,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-        with:
-          path: "${{ github.repository }}"
       - name: disable apparmor for mysql
         run: sudo ln -s /etc/apparmor.d/usr.sbin.mysqld /etc/apparmor.d/disable/
       - name: parse apparmor for mysql
