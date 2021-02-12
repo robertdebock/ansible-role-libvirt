@@ -19,8 +19,11 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-        with:
-          path: "${{ github.repository }}"
+        # with:
+        #   path: "${{ github.repository }}"
+      - run: pwd
+      - run: ls -l
+      - run: find ./
       - name: molecule
         uses: robertdebock/molecule-action@2.6.10
         with:
