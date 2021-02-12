@@ -4,7 +4,5 @@
   become: yes
   gather_facts: yes
 
-  tasks:
-    - name: "include libvirt"
-      include_role:
-        name: "ansible-role-libvirt"
+  roles:
+    - role: ansible-role-libvirt

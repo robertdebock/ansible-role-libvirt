@@ -26,5 +26,8 @@ provisioner:
     defaults:
       stdout_callback: yaml
       bin_ansible_callbacks: yes
+  ANSIBLE_ROLES_PATH: $project_directory/../
+ANSIBLE_LIBRARY:
+
 verifier:
   name: ansible
