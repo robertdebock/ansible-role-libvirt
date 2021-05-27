@@ -6,4 +6,5 @@
 
   tasks:
     - name: see if qemu-io is installed
-      command: qemu-io --version
+      ansible.builtin.command:
+        cmd: qemu-io --version
