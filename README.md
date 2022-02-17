@@ -62,7 +62,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |---------|----|
 |debian|all|
 |el|8|
-|fedora|all|
+|fedora|34, 35|
 |ubuntu|all|
 
 The minimum version of Ansible required is 2.10, tests have been done to:
@@ -70,7 +70,6 @@ The minimum version of Ansible required is 2.10, tests have been done to:
 - The previous version.
 - The current version.
 - The development version.
-
 
 
 If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-libvirt/issues)
