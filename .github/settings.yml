@@ -5,4 +5,4 @@
 repository:
   description: Install and configure libvirt on your system.
   homepage: https://robertdebock.nl/
-  topics: libvirt, ansible, molecule, tox, playbook
+  topics: libvirt, system, ansible, molecule, tox, playbook
