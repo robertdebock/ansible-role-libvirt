@@ -1,4 +1,4 @@
-# Ansible role [libvirt](#libvirt)
+# [Ansible role libvirt](#libvirt)
 
 Install and configure libvirt on your system.
 
