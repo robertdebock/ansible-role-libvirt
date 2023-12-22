@@ -1,5 +1,7 @@
 # [Ansible role libvirt](#libvirt)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install and configure libvirt on your system.
 
 |GitHub|GitLab|Downloads|Version|
